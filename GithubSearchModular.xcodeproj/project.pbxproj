@@ -10,10 +10,8 @@
 		4525F4EC27F1F85E00BEA217 /* GithubSearchNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4525F4EA27F1F85E00BEA217 /* GithubSearchNavigator.swift */; };
 		4525F4ED27F1F85E00BEA217 /* GithubSearchDetailNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4525F4EB27F1F85E00BEA217 /* GithubSearchDetailNavigator.swift */; };
 		4525F4F027F1F8B400BEA217 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4525F4EF27F1F8B400BEA217 /* Core */; };
-		4525F4F227F1F8B600BEA217 /* Entity in Frameworks */ = {isa = PBXBuildFile; productRef = 4525F4F127F1F8B600BEA217 /* Entity */; };
-		4525F4F427F1F8B800BEA217 /* GithubSearch in Frameworks */ = {isa = PBXBuildFile; productRef = 4525F4F327F1F8B800BEA217 /* GithubSearch */; };
-		4525F4F627F1F8BB00BEA217 /* GithubSearchDetail in Frameworks */ = {isa = PBXBuildFile; productRef = 4525F4F527F1F8BB00BEA217 /* GithubSearchDetail */; };
-		4525F4F827F1F8BD00BEA217 /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 4525F4F727F1F8BD00BEA217 /* Network */; };
+		4560536527F5CB0300BBD4BA /* GithubSearch in Frameworks */ = {isa = PBXBuildFile; productRef = 4560536427F5CB0300BBD4BA /* GithubSearch */; };
+		4560536727F5CB0500BBD4BA /* GithubSearchDetail in Frameworks */ = {isa = PBXBuildFile; productRef = 4560536627F5CB0500BBD4BA /* GithubSearchDetail */; };
 		458B8C3F27F1D88D000A7FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B8C3E27F1D88D000A7FF7 /* AppDelegate.swift */; };
 		458B8C4127F1D88D000A7FF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B8C4027F1D88D000A7FF7 /* SceneDelegate.swift */; };
 		458B8C4827F1D890000A7FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458B8C4727F1D890000A7FF7 /* Assets.xcassets */; };
@@ -30,10 +28,8 @@
 		458B8C4A27F1D890000A7FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		458B8C4C27F1D890000A7FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		458B8C5427F1F2FA000A7FF7 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Core; path = Packages/Core; sourceTree = "<group>"; };
-		458B8C5527F1F7E6000A7FF7 /* Entity */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Entity; path = Packages/Entity; sourceTree = "<group>"; };
 		458B8C5627F1F7EE000A7FF7 /* GithubSearch */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GithubSearch; path = Packages/GithubSearch; sourceTree = "<group>"; };
 		458B8C5727F1F7FA000A7FF7 /* GithubSearchDetail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = GithubSearchDetail; path = Packages/GithubSearchDetail; sourceTree = "<group>"; };
-		458B8C5827F1F801000A7FF7 /* Network */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Network; path = Packages/Network; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,10 +38,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4525F4F027F1F8B400BEA217 /* Core in Frameworks */,
-				4525F4F227F1F8B600BEA217 /* Entity in Frameworks */,
-				4525F4F627F1F8BB00BEA217 /* GithubSearchDetail in Frameworks */,
-				4525F4F427F1F8B800BEA217 /* GithubSearch in Frameworks */,
-				4525F4F827F1F8BD00BEA217 /* Network in Frameworks */,
+				4560536527F5CB0300BBD4BA /* GithubSearch in Frameworks */,
+				4560536727F5CB0500BBD4BA /* GithubSearchDetail in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,10 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				458B8C5427F1F2FA000A7FF7 /* Core */,
-				458B8C5527F1F7E6000A7FF7 /* Entity */,
 				458B8C5627F1F7EE000A7FF7 /* GithubSearch */,
 				458B8C5727F1F7FA000A7FF7 /* GithubSearchDetail */,
-				458B8C5827F1F801000A7FF7 /* Network */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -129,10 +121,8 @@
 			name = GithubSearchModular;
 			packageProductDependencies = (
 				4525F4EF27F1F8B400BEA217 /* Core */,
-				4525F4F127F1F8B600BEA217 /* Entity */,
-				4525F4F327F1F8B800BEA217 /* GithubSearch */,
-				4525F4F527F1F8BB00BEA217 /* GithubSearchDetail */,
-				4525F4F727F1F8BD00BEA217 /* Network */,
+				4560536427F5CB0300BBD4BA /* GithubSearch */,
+				4560536627F5CB0500BBD4BA /* GithubSearchDetail */,
 			);
 			productName = GithubSearchModular;
 			productReference = 458B8C3B27F1D88D000A7FF7 /* GithubSearchModular.app */;
@@ -259,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -313,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -333,11 +323,13 @@
 				DEVELOPMENT_TEAM = HM4WJFCVK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GithubSearchModular/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Modular;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,7 +339,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -361,11 +353,13 @@
 				DEVELOPMENT_TEAM = HM4WJFCVK8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GithubSearchModular/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Modular;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +369,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -407,21 +401,13 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Core;
 		};
-		4525F4F127F1F8B600BEA217 /* Entity */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Entity;
-		};
-		4525F4F327F1F8B800BEA217 /* GithubSearch */ = {
+		4560536427F5CB0300BBD4BA /* GithubSearch */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = GithubSearch;
 		};
-		4525F4F527F1F8BB00BEA217 /* GithubSearchDetail */ = {
+		4560536627F5CB0500BBD4BA /* GithubSearchDetail */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = GithubSearchDetail;
-		};
-		4525F4F727F1F8BD00BEA217 /* Network */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Network;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
